@@ -1,0 +1,41 @@
+﻿IdVeiculo;Placa;Marca;Modelo;Ano;Setor;TipoVeiculo
+1;LSS1H76;Nissan;Frontier Attack;2023;Diretoria;Picape
+2;UTZ7U56;Mercedes-Benz;Sprinter 417 Van;2020;Operações;Van
+3;DKD7A87;Nissan;Frontier Attack;2022;Administrativo;Picape
+4;NJM5N95;Fiat;Strada Freedom;2023;Operações;Picape
+5;CTT4K58;Volkswagen;Polo Track;2020;Diretoria;Passeio
+6;AYM5Q54;Chevrolet;Onix LT;2019;Comunicação;Passeio
+7;DPS9R50;Volvo;VM 270 Caminhão;2023;Administrativo;Caminhão
+8;URS8A73;Mercedes-Benz;Sprinter 417 Van;2020;Educação;Van
+9;YSX1Y79;Renault;Oroch Outsider;2022;Comunicação;Picape
+10;RHD7X60;Toyota;Hilux SR;2024;Diretoria;Picape
+11;TNX4T82;Chevrolet;Onix LT;2023;Comunicação;Passeio
+12;PGK4A04;Mercedes-Benz;Sprinter 417 Van;2020;Diretoria;Van
+13;SRM3J88;Volvo;VM 270 Caminhão;2022;Comunicação;Caminhão
+14;PTX0K40;Volvo;VM 270 Caminhão;2022;Operações;Caminhão
+15;YYS4Q23;Volvo;VM 270 Caminhão;2022;Comunicação;Caminhão
+16;WJR5D24;Nissan;Frontier Attack;2024;Comunicação;Picape
+17;QAC0Q74;Toyota;Hilux SR;2023;Operações;Picape
+18;HDV0T34;Fiat;Strada Freedom;2024;Administrativo;Picape
+19;ALX9U98;Toyota;Hilux SR;2025;Comunicação;Picape
+20;THR9E76;Toyota;Hilux SR;2024;Diretoria;Picape
+21;CPX2E75;Chevrolet;Onix LT;2021;Diretoria;Passeio
+22;NES3N01;Mercedes-Benz;Sprinter 417 Van;2019;Comunicação;Van
+23;BMW5A03;Nissan;Frontier Attack;2023;Comunicação;Picape
+24;XKQ5D63;Volkswagen;Polo Track;2022;Diretoria;Passeio
+25;EUS3P79;Toyota;Hilux SR;2021;Comunicação;Picape
+26;XYC8N04;Fiat;Strada Freedom;2020;Educação;Picape
+27;WTB7W24;Renault;Oroch Outsider;2022;Operações;Picape
+28;WSG8E20;Toyota;Hilux SR;2024;Educação;Picape
+29;JPT6C49;Mercedes-Benz;Sprinter 417 Van;2021;Educação;Van
+30;FJQ7P36;Volkswagen;Polo Track;2022;Educação;Passeio
+31;SRQ1S67;Volkswagen;Polo Track;2025;Administrativo;Passeio
+32;GHA1Q82;Nissan;Frontier Attack;2021;Comunicação;Picape
+33;AMF5T87;Toyota;Hilux SR;2023;Diretoria;Picape
+34;DVY4T96;Fiat;Strada Freedom;2023;Educação;Picape
+35;UJX8E12;Chevrolet;Onix LT;2025;Administrativo;Passeio
+36;PFD0M92;Nissan;Frontier Attack;2025;Educação;Picape
+37;SLJ9C37;Nissan;Frontier Attack;2021;Educação;Picape
+38;JCA6J53;Chevrolet;Onix LT;2019;Operações;Passeio
+39;HAK1D87;Nissan;Frontier Attack;2023;Diretoria;Picape
+40;LQV9B51;Volkswagen;Polo Track;2021;Diretoria;Passeio

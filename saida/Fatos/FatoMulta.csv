@@ -1,0 +1,82 @@
+﻿IdMulta;IdData;IdVeiculo;IdMotorista;Infracao;Valor;Paga;IdDataPagamento;DiasAtePagamento
+1;20260930;39;4;Avanço de sinal;88,38;Sim;20261019;19
+2;20260520;21;12;Excesso de velocidade;130,16;Sim;20260601;12
+3;20250312;15;10;Excesso de velocidade;293,47;Sim;20250403;22
+4;20250328;30;12;Estacionamento irregular;130,16;Sim;20250424;27
+5;20250311;40;10;Avanço de sinal;195,23;Sim;20250430;50
+6;20250922;1;7;Avanço de sinal;130,16;Sim;20251029;37
+7;20250414;8;1;Excesso de velocidade;195,23;Não;;
+8;20260615;32;11;Avanço de sinal;130,16;Sim;20260716;31
+9;20260825;9;11;Excesso de velocidade;130,16;Não;;
+10;20260414;13;6;Excesso de velocidade;293,47;Não;;
+11;20250204;26;6;Avanço de sinal;293,47;Não;;
+12;20250505;1;8;Estacionamento irregular;130,16;Não;;
+13;20260625;30;10;Avanço de sinal;293,47;Sim;20260814;50
+14;20261129;29;11;Avanço de sinal;88,38;Sim;20261226;27
+15;20250515;33;8;Estacionamento irregular;293,47;Sim;20250712;58
+16;20260130;6;12;Excesso de velocidade;293,47;Não;;
+17;20250613;14;10;Avanço de sinal;293,47;Não;;
+18;20261103;2;6;Excesso de velocidade;130,16;Não;;
+19;20260204;6;9;Estacionamento irregular;293,47;Não;;
+20;20260727;19;9;Excesso de velocidade;130,16;Sim;20260828;32
+21;20261020;39;4;Estacionamento irregular;293,47;Sim;20261122;33
+22;20250813;29;3;Estacionamento irregular;293,47;Sim;20251001;49
+23;20260418;2;1;Excesso de velocidade;293,47;Sim;20260617;60
+24;20250106;37;8;Estacionamento irregular;293,47;Não;;
+25;20251225;19;8;Avanço de sinal;195,23;Sim;20260112;18
+26;20260902;36;3;Excesso de velocidade;130,16;Sim;20260926;24
+27;20260504;29;3;Estacionamento irregular;130,16;Sim;20260601;28
+28;20250529;18;10;Avanço de sinal;88,38;Não;;
+29;20251111;30;12;Excesso de velocidade;130,16;Não;;
+30;20250920;32;5;Excesso de velocidade;293,47;Não;;
+31;20260906;1;10;Excesso de velocidade;130,16;Sim;20261023;47
+32;20260310;18;2;Excesso de velocidade;130,16;Não;;
+33;20250313;25;5;Avanço de sinal;195,23;Sim;20250508;56
+34;20250528;36;2;Estacionamento irregular;195,23;Não;;
+35;20251113;4;12;Avanço de sinal;195,23;Sim;20260112;60
+36;20260501;35;5;Avanço de sinal;130,16;Não;;
+37;20250315;19;12;Avanço de sinal;88,38;Sim;20250423;39
+38;20250330;37;9;Excesso de velocidade;195,23;Sim;20250508;39
+39;20250110;2;5;Avanço de sinal;130,16;Sim;20250125;15
+40;20250624;2;9;Estacionamento irregular;293,47;Sim;20250801;38
+41;20250228;2;1;Estacionamento irregular;88,38;Sim;20250419;50
+42;20260118;31;9;Estacionamento irregular;130,16;Sim;20260213;26
+43;20260316;14;4;Excesso de velocidade;195,23;Sim;20260420;35
+44;20250326;30;4;Excesso de velocidade;130,16;Sim;20250405;10
+45;20250204;6;7;Excesso de velocidade;195,23;Não;;
+46;20260802;17;4;Estacionamento irregular;130,16;Sim;20260817;15
+47;20250205;5;11;Avanço de sinal;195,23;Sim;20250302;25
+48;20260727;25;12;Estacionamento irregular;293,47;Não;;
+49;20250706;33;10;Avanço de sinal;293,47;Sim;20250824;49
+50;20261019;20;6;Estacionamento irregular;88,38;Sim;20261106;18
+51;20260923;24;9;Estacionamento irregular;88,38;Sim;20261031;38
+52;20251011;14;8;Avanço de sinal;88,38;Sim;20251116;36
+53;20250628;17;2;Excesso de velocidade;293,47;Sim;20250824;57
+54;20250731;5;8;Excesso de velocidade;195,23;Sim;20250917;48
+55;20260301;39;2;Estacionamento irregular;195,23;Sim;20260429;59
+56;20260514;26;1;Excesso de velocidade;195,23;Não;;
+57;20250401;5;6;Excesso de velocidade;195,23;Não;;
+58;20250905;16;7;Estacionamento irregular;88,38;Sim;20251005;30
+59;20250615;2;12;Excesso de velocidade;130,16;Sim;20250707;22
+60;20251114;26;8;Estacionamento irregular;195,23;Sim;20251203;19
+61;20260802;10;4;Estacionamento irregular;88,38;Não;;
+62;20250627;35;10;Excesso de velocidade;130,16;Sim;20250720;23
+63;20250423;36;3;Estacionamento irregular;195,23;Não;;
+64;20260606;33;5;Estacionamento irregular;130,16;Sim;20260707;31
+65;20250103;21;10;Excesso de velocidade;130,16;Não;;
+66;20250120;5;4;Estacionamento irregular;293,47;Não;;
+67;20251011;3;2;Excesso de velocidade;88,38;Sim;20251207;57
+68;20250212;36;3;Excesso de velocidade;195,23;Sim;20250327;43
+69;20261013;12;12;Estacionamento irregular;130,16;Não;;
+70;20250917;3;10;Estacionamento irregular;195,23;Não;;
+71;20260309;10;6;Excesso de velocidade;130,16;Sim;20260504;56
+72;20260111;16;1;Avanço de sinal;130,16;Sim;20260209;29
+73;20261104;8;1;Excesso de velocidade;130,16;Não;;
+74;20260913;26;8;Excesso de velocidade;195,23;Sim;20260930;17
+75;20260506;21;5;Avanço de sinal;88,38;Não;;
+76;20261025;40;4;Estacionamento irregular;293,47;Sim;20261202;38
+77;20250123;28;1;Avanço de sinal;130,16;Não;;
+78;20251224;34;9;Avanço de sinal;195,23;Sim;20260129;36
+79;20260209;31;3;Estacionamento irregular;88,38;Sim;20260313;32
+80;20250614;14;7;Estacionamento irregular;88,38;Sim;20250802;49
+81;20261007;16;4;Excesso de velocidade;88,38;Não;;

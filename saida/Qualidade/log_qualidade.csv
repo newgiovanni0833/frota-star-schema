@@ -1,0 +1,4 @@
+﻿Tabela;Regra;Registros;Detalhe
+FatoAbastecimento;Data implausível em 'Data' anulada;11;01/08/0025, 05/09/0026, 07/11/0025, 10/10/0025, 12/02/0026
+FatoAbastecimento;Placa normalizada (espaços e minúsculas);155;
+FatoMulta;Registro órfão: placa sem cadastro (removido da fato);9;

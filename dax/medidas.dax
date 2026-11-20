@@ -1,0 +1,61 @@
+// =====================================================================
+// Medidas do painel de Frota
+// Relacionamentos: fatos -> dimensões por IdData, IdVeiculo, IdMotorista, IdPosto
+// FatoMulta[IdDataPagamento] -> DimData[IdData] é um relacionamento INATIVO
+// =====================================================================
+
+// ---------- Abastecimento ----------
+Custo Combustível = SUM ( FatoAbastecimento[Valor] )
+
+Litros = SUM ( FatoAbastecimento[Litros] )
+
+Preço Médio Litro = DIVIDE ( [Custo Combustível], [Litros] )
+
+// KM é hodômetro (não aditivo): calcula a distância por veículo e depois soma
+KM Rodado =
+SUMX (
+    VALUES ( DimVeiculo[IdVeiculo] ),
+    CALCULATE ( MAX ( FatoAbastecimento[KM] ) - MIN ( FatoAbastecimento[KM] ) )
+)
+
+Consumo Médio (km/l) = DIVIDE ( [KM Rodado], [Litros] )
+
+// ---------- Revisões ----------
+Custo Revisões = SUM ( FatoRevisao[Valor] )
+
+Revisões Realizadas = COUNTROWS ( FatoRevisao )
+
+// tolerância de 1.000 km além do marco previsto
+Revisões no Prazo =
+CALCULATE ( [Revisões Realizadas], FatoRevisao[DesvioKM] <= 1000 )
+
+% Aderência Revisões = DIVIDE ( [Revisões no Prazo], [Revisões Realizadas] )
+
+// ---------- Multas ----------
+Valor Multas = SUM ( FatoMulta[Valor] )
+
+Multas em Aberto = CALCULATE ( [Valor Multas], FatoMulta[Paga] = "Não" )
+
+% Multas em Aberto = DIVIDE ( [Multas em Aberto], [Valor Multas] )
+
+Prazo Médio Pagamento (dias) = AVERAGE ( FatoMulta[DiasAtePagamento] )
+
+// usa o relacionamento inativo para olhar pela data do pagamento
+Multas Pagas no Período =
+CALCULATE (
+    [Valor Multas],
+    FatoMulta[Paga] = "Sim",
+    USERELATIONSHIP ( FatoMulta[IdDataPagamento], DimData[IdData] )
+)
+
+// ---------- Consolidado ----------
+Custo Total Frota = [Custo Combustível] + [Custo Revisões] + [Valor Multas]
+
+Custo por KM = DIVIDE ( [Custo Total Frota], [KM Rodado] )
+
+// ranking que respeita os filtros aplicados pelo usuário (setor, tipo, período)
+Ranking Custo por KM =
+IF (
+    HASONEVALUE ( DimVeiculo[Placa] ),
+    RANKX ( ALLSELECTED ( DimVeiculo[Placa] ), [Custo por KM],, DESC, DENSE )
+)
