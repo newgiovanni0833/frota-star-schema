@@ -1,10 +1,10 @@
-# 🚚 Star Schema de Frota e Logística
+# Star Schema de Frota e Logística
 
 Do Excel operacional bagunçado a um modelo dimensional pronto para o Power BI, com log de qualidade e integridade referencial conferida a cada execução.
 
-> ⚠️ **Dados fictícios.** Veículos, placas, motoristas e valores são gerados por script. O desenho do modelo é o que uso em painéis reais de gestão de frota.
+> **Dados fictícios.** Veículos, placas, motoristas e valores são gerados por script. O desenho do modelo é o que uso em painéis reais de gestão de frota.
 
-## 🎯 Problema de negócio
+## Problema de negócio
 
 O controle de frota costuma viver em planilhas separadas: abastecimento em uma, revisões em outra (uma coluna para cada marco de quilometragem), multas em uma terceira. Responder "quanto custa cada veículo por quilômetro?" exige juntar tudo à mão.
 
@@ -14,7 +14,7 @@ Este projeto consolida as fontes em um único modelo analítico para responder:
 - Quais veículos estão atrasando revisões preventivas?
 - Quanto há em multas em aberto, e quem são os condutores recorrentes?
 
-## 🏗️ Modelo dimensional
+## Modelo dimensional
 
 ```mermaid
 erDiagram
@@ -58,7 +58,7 @@ erDiagram
 
 Detalhes de cada coluna em [docs/dicionario_de_dados.md](docs/dicionario_de_dados.md).
 
-## 🧹 Problemas de dados tratados
+## Problemas de dados tratados
 
 | Problema na origem | Tratamento |
 |---|---|
@@ -70,7 +70,7 @@ Detalhes de cada coluna em [docs/dicionario_de_dados.md](docs/dicionario_de_dado
 | Tipo de veículo ausente na origem | Derivado do modelo por palavra-chave |
 | Multas de placas sem cadastro | Removidas da fato e listadas em `registros_orfaos.csv` |
 
-## ▶️ Como executar
+## Como executar
 
 ```bash
 pip install -r requirements.txt
@@ -80,7 +80,7 @@ python src/etl_frota.py                  # cria saida/
 
 O ETL é um script único e reexecutável: cada execução reconstrói o modelo inteiro a partir das fontes brutas.
 
-## 📊 Resultado da demonstração
+## Resultado da demonstração
 
 | Tabela | Linhas |
 |---|---:|
@@ -95,11 +95,11 @@ O ETL é um script único e reexecutável: cada execução reconstrói o modelo 
 - **Integridade referencial conferida** em todas as fatos (a execução falha se houver chave sem correspondência).
 - **175 registros** com apontamento de qualidade: 155 placas normalizadas, 11 datas implausíveis anuladas e 9 multas órfãs.
 
-## 📐 Medidas DAX
+## Medidas DAX
 
 O arquivo [dax/medidas.dax](dax/medidas.dax) traz as medidas do painel: custo total, custo por quilômetro, consumo médio, aderência às revisões e multas em aberto.
 
-## 📁 Estrutura
+## Estrutura
 
 ```text
 ├── scripts/gerar_dados_brutos.py   # gera as planilhas brutas fictícias
@@ -110,10 +110,10 @@ O arquivo [dax/medidas.dax](dax/medidas.dax) traz as medidas do painel: custo to
 └── dax/medidas.dax
 ```
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 Python · pandas · modelagem dimensional (Star Schema) · Power BI · DAX
 
-## 👤 Autor
+## Autor
 
 **Newton Giovanni** · Economista e Analista de Dados Estratégicos · [LinkedIn](https://www.linkedin.com/in/newton-giovanni/) · [Portfólio](https://github.com/newgiovanni0833)
